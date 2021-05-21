@@ -22,7 +22,7 @@ namespace CleanArch.Application.Services
         {
             return new CourseViewModel()
             {
-                courses = _courseRepository.GetCourses()
+                Courses = _courseRepository.GetCourses()
             };
         }
     }
